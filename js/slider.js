@@ -2,7 +2,7 @@
 
 jQuery(function ($) {
   $('#mv').bgSwitcher({
-    images: ['../images/mv/slide1_pic_coverd.png', '../images/mv/slide2_pic_coverd.png', '../images/mv/slide3_pic_coverd.png'], // 切替背景画像を指定
+    images: ['images/mv/slide1_pic_coverd.png', 'images/mv/slide2_pic_coverd.png', 'images/mv/slide3_pic_coverd.png'], // 切替背景画像を指定、../付けると反映しない
     interval: 4000, // 背景画像を切り替える間隔を指定 3000=3秒
     loop: true, // 切り替えを繰り返すか指定 true=繰り返す false=繰り返さない
     shuffle: false, // 背景画像の順番をシャッフルするか指定 true=する false=しない
